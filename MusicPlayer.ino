@@ -20,8 +20,8 @@ void setup() {
 
 void loop() {}
 
-void printFreqAndTempo(float frequency, float noteDuration, int i) {
-        Serial.print("Note: ");
+void printFreqAndTempo(float frequency, float noteDuration, int i) { //string concatenation avoided as it increases memory consumption
+        Serial.print("Note: ");                                      //Arduino uno has only 2 kB of RAM.
         Serial.print(score.substring(i, i + 3));
         Serial.print("\t|\tFrequency: ");
         Serial.print(frequency);
