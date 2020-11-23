@@ -1,4 +1,4 @@
-# Arduino-music-playeer
+# Arduino-music-player
 A simple arduino based "music" player  
 The player works as follows:  
   1. The user must enter the "score" string which is a sequence of characters representing a note  
